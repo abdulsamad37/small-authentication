@@ -8,7 +8,7 @@ const Login = () => {
     const [password, setPassword] = useState('');
     const navigate = useNavigate()
     const handleSubmit = (e) => {
-        e.preventDefault(); // Prevent default form submission behavior
+        e.preventDefault(); // Prevent default from submission behavior
         const payload = {
             email: email,
             password: password,
